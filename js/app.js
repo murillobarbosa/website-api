@@ -215,3 +215,5 @@ const showSuperheroDetails = (data) => {
     </li>
     `;
 }
+
+
