@@ -7,81 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebSite | API</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./oi.scss">
 </head>
 
 <body>
-
-    <!-- Card: City -->
-    <section class="card-section">
-        <div class="card">
-            <div class="flip-card">
-                <div class="flip-card__container">
-                    <div class="card-front">
-                        <div class="card-front__tp card-front__tp--city">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve" class="card-front__icon">
-                       <g>
-                           <path d="M49.7,22c-1.1,0-2,0.9-2,2v32.2c0,1.1,0.9,2,2,2s2-0.9,2-2V24C51.7,22.9,50.8,22,49.7,22z"/>
-                           <path d="M13,29.5c1.1,0,2-0.9,2-2s-0.9-2-2-2H5.7v-3h20.8c1.1,0,2-0.9,2-2s-0.9-2-2-2H5.7v-3h20.8c1.1,0,2-0.9,2-2s-0.9-2-2-2H5.7
-                               V7.1h24.8v15.3c0,1.1,0.9,2,2,2s2-0.9,2-2V5.1c0-1.1-0.9-2-2-2H3.7c-1.1,0-2,0.9-2,2v51c0,1.1,0.9,2,2,2s2-0.9,2-2V36.5H13
-                               c1.1,0,2-0.9,2-2s-0.9-2-2-2H5.7v-3H13z"/>
-                           <path d="M58,11.9c0-0.1,0-0.1,0-0.2c0-0.1,0-0.1-0.1-0.2c0-0.1,0-0.1-0.1-0.2c0-0.1-0.1-0.1-0.1-0.2c0,0,0-0.1-0.1-0.1c0,0,0,0,0,0
-                               c0-0.1-0.1-0.1-0.1-0.2c0,0-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1c-0.1,0-0.1-0.1-0.2-0.1c0,0-0.1-0.1-0.2-0.1
-                               c-0.1,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2-0.1c-0.1,0-0.1,0-0.2-0.1c0,0-0.1,0-0.1,0c-0.1,0-0.2,0-0.2,0c0,0,0,0,0,0
-                               c0,0-0.1,0-0.1,0c-0.1,0-0.2,0-0.2,0c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0.1c-0.1,0-0.1,0.1-0.2,0.1c0,0-0.1,0-0.1,0.1l-12.6,7.8
-                               c0,0,0,0,0,0c-0.1,0-0.1,0.1-0.2,0.1c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.2c0,0.1-0.1,0.1-0.1,0.2
-                               c0,0.1-0.1,0.1-0.1,0.2c0,0.1,0,0.1-0.1,0.2c0,0.1,0,0.1-0.1,0.2c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0,0.2c0,0,0,0,0,0v5.4H22.1
-                               c-1.1,0-2,0.9-2,2v28.9c0,1.1,0.9,2,2,2s2-0.9,2-2V29.3h17.3v26.9c0,1.1,0.9,2,2,2s2-0.9,2-2V21l8.6-5.3v40.5c0,1.1,0.9,2,2,2
-                               s2-0.9,2-2V12.1C58,12,58,12,58,11.9z"/>
-                           <path d="M28,31L28,31c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S29.1,31,28,31z"/>
-                           <path d="M33.5,31L33.5,31c-1.1,0-2,0.9-2,2s0.9,2,2,2c1.1,0,2-0.9,2-2S34.6,31,33.5,31z"/>
-                           <path d="M28,36L28,36c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S29.1,36,28,36z"/>
-                           <path d="M33.5,36L33.5,36c-1.1,0-2,0.9-2,2s0.9,2,2,2c1.1,0,2-0.9,2-2S34.6,36,33.5,36z"/>
-                       </g>
-                       </svg>
-
-                            <h2 class="card-front__heading">
-                                City break
-                            </h2>
-                            <p class="card-front__text-price">
-                                From £29
-                            </p>
-                        </div>
-
-                        <div class="card-front__bt">
-                            <p class="card-front__text-view card-front__text-view--city">
-                                View me
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-back">
-                        <video class="video__container" autoplay muted loop>
-                            <source class="video__media" src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div class="inside-page">
-                <div class="inside-page__container">
-                    <h3 class="inside-page__heading inside-page__heading--city">
-                        For urban lovers
-                    </h3>
-                    <p class="inside-page__text">
-                        As cities never sleep!
-                    </p>
-
-                    <div class="button">
-                        <button id="myButton">Click me!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
+    <button id="myButton" class="btn11">Click!</button>
 
 
     <div class="main-wrapper">
@@ -92,7 +25,7 @@
                 <form class="app-header-search">
                     <input type="text" class="form-control" placeholder="Search your superhero here ..." name="search">
                     <button type="submit" class="search-btn">
-                        <i class = "fas fa-search"></i>
+                        <i class="fas fa-search"></i>
                     </button>
                     <div class="search-list" id="search-list">
                         <!-- <div class = "search-list-item">
@@ -108,12 +41,13 @@
                 <div class="app-body-content">
                     <!-- app body thumbnail -->
                     <div class="app-body-content-thumbnail">
-                        <!--  <img src = "images/thumbnail-batman.jpg">  -->
+                        <img src="images/10234.jpg">
                     </div>
                     <!-- end of app body thumbnail -->
 
                     <div class="app-body-content-list">
-                        <div class="name">Batman</div>
+                        <div class="name">BATWOMAN V
+                        </div>
 
                         <!-- tabs head -->
                         <div class="app-body-tabs-head">
@@ -141,42 +75,42 @@
                                         <i class="fa-solid fa-shield-halved"></i>
                                         <span>intelligence</span>
                                     </div>
-                                    <span>100</span>
+                                    <span>81</span>
                                 </li>
                                 <li>
                                     <div>
                                         <i class="fa-solid fa-shield-halved"></i>
                                         <span>strength</span>
                                     </div>
-                                    <span>26</span>
+                                    <span>8</span>
                                 </li>
                                 <li>
                                     <div>
                                         <i class="fa-solid fa-shield-halved"></i>
                                         <span>speed</span>
                                     </div>
-                                    <span>27</span>
+                                    <span>29</span>
                                 </li>
                                 <li>
                                     <div>
                                         <i class="fa-solid fa-shield-halved"></i>
                                         <span>durability</span>
                                     </div>
-                                    <span>50</span>
+                                    <span>25</span>
                                 </li>
                                 <li>
                                     <div>
                                         <i class="fa-solid fa-shield-halved"></i>
                                         <span>power</span>
                                     </div>
-                                    <span>47</span>
+                                    <span>27</span>
                                 </li>
                                 <li>
                                     <div>
                                         <i class="fa-solid fa-shield-halved"></i>
                                         <span>combat</span>
                                     </div>
-                                    <span>100</span>
+                                    <span>80</span>
                                 </li>
                             </ul>
                             <!-- end of powerstats tab -->
@@ -185,27 +119,27 @@
                             <ul class="tab-body-single biography">
                                 <li>
                                     <span>full name</span>
-                                    <span>terry mcginnis</span>
+                                    <span>Katherine Rebecca Kane</span>
                                 </li>
                                 <li>
                                     <span>alert-egos</span>
-                                    <span>no alter egos found.</span>
+                                    <span>No Alter Egos Found.</span>
                                 </li>
                                 <li>
                                     <span>aliases</span>
-                                    <span>Batman II, The Tomorrow Knight, Batman Beyond</span>
+                                    <span>-</span>
                                 </li>
                                 <li>
                                     <span>place-of-birth</span>
-                                    <span>Gothan City, 25th Century</span>
+                                    <span>-</span>
                                 </li>
                                 <li>
                                     <span>first-apperance</span>
-                                    <span>Batman Beyond #1</span>
+                                    <span>52 #7 (June, 2006)</span>
                                 </li>
                                 <li>
                                     <span>publisher</span>
-                                    <span>DC Comics</span>
+                                    <span> DC Comics</span>
                                 </li>
                             </ul>
                             <!-- end of biography tab -->
@@ -214,39 +148,39 @@
                             <ul class="tab-body-single appearance">
                                 <li>
                                     <span>
-                                        <i class = "fas fa-star"></i> gender
+                                        <i class="fas fa-star"></i> gender
                                     </span>
-                                    <span>Male</span>
+                                    <span>Female</span>
                                 </li>
                                 <li>
                                     <span>
-                                        <i class = "fas fa-star"></i> race
+                                        <i class="fas fa-star"></i> race
                                     </span>
-                                    <span>human</span>
+                                    <span>Human</span>
                                 </li>
                                 <li>
                                     <span>
-                                        <i class = "fas fa-star"></i> height
+                                        <i class="fas fa-star"></i> height
                                     </span>
-                                    <span>5' 10''</span>
+                                    <span>5'10</span>
                                 </li>
                                 <li>
                                     <span>
-                                        <i class = "fas fa-star"></i> weight
+                                        <i class="fas fa-star"></i> weight
                                     </span>
-                                    <span>170 lb</span>
+                                    <span>- Lb</span>
                                 </li>
                                 <li>
                                     <span>
-                                        <i class = "fas fa-star"></i> eye-color
+                                        <i class="fas fa-star"></i> eye-color
                                     </span>
-                                    <span>blue</span>
+                                    <span>Green</span>
                                 </li>
                                 <li>
                                     <span>
-                                        <i class = "fas fa-star"></i> hair-color
+                                        <i class="fas fa-star"></i> hair-color
                                     </span>
-                                    <span>black</span>
+                                    <span>Red</span>
                                 </li>
                             </ul>
                             <!-- end of appearance -->
@@ -255,11 +189,13 @@
                             <ul class="tab-body-single connections">
                                 <li>
                                     <span>group--affiliation</span>
-                                    <span>Batman Family, Justice League Unlimited</span>
+                                    <span>Batman Family (unofficially), D.E.O, Unknowns</span>
                                 </li>
                                 <li>
                                     <span>relatives</span>
-                                    <span>Bruce Wayne (biological father), Warren McGinnis (father, deceased), Mary McGinnis (mother), Matt McGinnis (brother)</span>
+                                    <span>Jacob Kane (father), Gabi Kane (mother; deceased), Beth Kane (twin sister),
+                                        Mary Elizabeth "Bette" Kane (cousin), Catherine Hamilton-Kane (stepmother),
+                                        Philip Kane (uncle), Kane Family</span>
                                 </li>
                             </ul>
                             <!-- end of connections -->
