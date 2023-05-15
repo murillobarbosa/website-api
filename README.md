@@ -1,7 +1,7 @@
 # website-api
 |      MOBILE         |          DESKTOP       |
 |:-------------------:|:-----------------------:
-|![](./images/mobile.png)|![](./img/desktop.png)|
+|![](./images/mobile.png)|![](./images/desktop.png)|
 |                     |                        |
 
 [Clique aqui]() para acessar o site!
