@@ -47,6 +47,6 @@ A API tem uma documentação completa e é fácil de usar, o unico problema que 
 
 ---
 ## **Autor**
-- [Guilherme Lima](https://github.com/murillobarbosa)  
+- [Murillo Barbosa](https://github.com/murillobarbosa)  
 
 
